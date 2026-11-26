@@ -1,0 +1,28 @@
+# 模型权重与数据（体积过大，不入库）
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.hdf5
+*.whl
+*.exe
+
+# 数据集与训练输出
+data/
+run/
+Plant_Leaf_Disease/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.vscode/
+.idea/
